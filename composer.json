@@ -1,0 +1,21 @@
+{
+    "name": "philly/collection",
+    "description": "Philly collection library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricaro Boss",
+            "email": "contact@ricardoboss.de"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "philly/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Philly\\Collection\\": "src/"
+        }
+    }
+}
